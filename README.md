@@ -1,5 +1,7 @@
-THis is my CV.
+###Description
 
-Thanks,
+This is my personal website hosted by github.
 
-Wei
+I hope I will update this website periodically, but it depends on my progress!
+
+<p>Share and enjoy</p>
