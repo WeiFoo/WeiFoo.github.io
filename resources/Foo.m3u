@@ -1,17 +1,30 @@
 #EXTM3U
 #EXT-X-APP APTV
 
-#EXTINF:-1 tvg-name="CCTV5" tvg-logo="https://live.fanmingming.cn/tv/CCTV5.png" group-title="CCTV",CCTV5
-http://218.78.176.241:5003/cctv5.m3u8?token=7375646f467cfbf33787cf046c465006aa15e932&z=1f48
-#EXTINF:-1 tvg-name="CCTV5+" tvg-logo="https://live.fanmingming.cn/tv/CCTV5+.png" group-title="CCTV",CCTV5+
-http://[2409:8087:1:20:20::2c]/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226894/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EevWZ0zmguDsOY_Mf3SM5TA%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND%24%21
+
+#EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://live.fanmingming.cn/tv/CCTV1.png" group-title="CCTV",CCTV1
+http://111.43.126.240:9003/hls/13/index.m3u8
 #EXTINF:-1 tvg-name="CCTV2" tvg-logo="https://live.fanmingming.cn/tv/CCTV2.png" group-title="CCTV",CCTV2
 http://111.43.126.240:9003/hls/14/index.m3u8
+#EXTINF:-1 tvg-name="CCTV3" tvg-logo="https://live.fanmingming.cn/tv/CCTV3.png" group-title="CCTV",CCTV3
+http://111.43.126.240:9003/hls/15/index.m3u8
 #EXTINF:-1 tvg-name="CCTV4" tvg-logo="https://live.fanmingming.cn/tv/CCTV4.png" group-title="CCTV",CCTV4
-http://218.78.176.241:5003/cctv4.m3u8?token=7375646fbc5fa9fb4a864936008cd4907ff363de&z=1f48
+http://111.43.126.240:9003/hls/16/index.m3u8
+#EXTINF:-1 tvg-name="CCTV5" tvg-logo="https://live.fanmingming.cn/tv/CCTV5.png" group-title="CCTV",CCTV5
+http://111.43.126.240:9003/hls/17/index.m3u8
+#EXTINF:-1 tvg-name="CCTV5+" tvg-logo="https://live.fanmingming.cn/tv/CCTV5+.png" group-title="CCTV",CCTV5+
+http://111.43.126.240:9003/hls/18/index.m3u8
+#EXTINF:-1 tvg-name="CCTV6" tvg-logo="https://live.fanmingming.cn/tv/CCTV6.png" group-title="CCTV",CCTV6
+http://111.43.126.240:9003/hls/19/index.m3u8
+#EXTINF:-1 tvg-name="CCTV7" tvg-logo="https://live.fanmingming.cn/tv/CCTV7.png" group-title="CCTV",CCTV7
+http://111.43.126.240:9003/hls/20/index.m3u8
+#EXTINF:-1 tvg-name="CCTV8" tvg-logo="https://live.fanmingming.cn/tv/CCTV8.png" group-title="CCTV",CCTV8
+http://111.43.126.240:9003/hls/21/index.m3u8
+#EXTINF:-1 tvg-name="CCTV9" tvg-logo="https://live.fanmingming.cn/tv/CCTV9.png" group-title="CCTV",CCTV9
+http://111.43.126.240:9003/hls/22/index.m3u8
 #EXTINF:-1 tvg-name="CCTV13" tvg-logo="https://live.fanmingming.cn/tv/CCTV13.png" group-title="CCTV",CCTV13
-http://223.76.131.67:5003/cctv13.m3u8?token=7375646f91e84938f96b49f77194bcd6b5a49e63&z=1151
-http://sh.lnott.top:880/dx13.m3u8
+http://111.43.126.240:9003/hls/26/index.m3u8
+
 #EXTINF:-1 tvg-id="141" tvg-name="凤凰中文" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/fenghuangzhongwen.png" group-title="港澳台",凤凰中文
 http://cdn.132.us.kg/live/fhzw/stream.m3u8
 #EXTINF:-1 tvg-id="142" tvg-name="凤凰资讯" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/fenghuangzixun.png" group-title="港澳台",凤凰资讯
