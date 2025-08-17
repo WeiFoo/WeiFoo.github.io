@@ -1,32 +1,18 @@
 #EXTM3U
-#EXTM3U x-tvg-url="http://epg.51zmt.top:8000/e.xml,https://epg.112114.xyz/pp.xml,https://epg.pw/xmltv/epg_lite.xml"
-#EXTINF:-1 group-title="【该播放列表由www.iptv-search.com生成】",请到www.iptv-search.com获取最新直播源
-http://nas.hssvm.com:8888/udp/225.1.1.144:5002
-#EXTINF:-1 group-title="【该播放列表由www.iptv-search.com生成】",生成日期:2025-08-17
-http://nas.hssvm.com:8888/udp/225.1.1.144:5002
-#EXTINF:-1 group-title="【该播放列表由www.iptv-search.com生成】",请到www.iptv-search.com获取最新直播源
-http://nas.hssvm.com:8888/udp/225.1.1.144:5002
-#EXTINF:-1  group-title="mylist" tvg-logo="https://iptv-search.com/static/channellogo/img/CCTV1.png",CCTV1
-https://stream.iptv-search.com/main.php?id=CCTV1&t=1753977057&token=efbe25b882a5c6d5c004d10709bd8607
-#EXTINF:-1  group-title="mylist" tvg-logo="https://iptv-search.com/static/channellogo/img/CCTV5.png",CCTV5
-https://stream.iptv-search.com/main.php?id=CCTV5&t=1753977057&token=58cc30fff0d372572fb99cda2b426f28
-#EXTINF:-1  group-title="mylist" tvg-logo="https://iptv-search.com/static/channellogo/img/CCTV13.png",CCTV13
-https://stream.iptv-search.com/main.php?id=CCTV13&t=1753977057&token=90a3a7b2478097da6b5d675be754a4e6
-#EXTINF:-1  group-title="mylist" tvg-logo="https://iptv-search.com/static/channellogo/img/CCTV4.png",CCTV4
-https://stream.iptv-search.com/main.php?id=CCTV4&t=1753977057&token=d112bf0445ddebbd11eb86b05e76c31b
-#EXTINF:-1  group-title="mylist" tvg-logo="https://iptv-search.com/static/channellogo/img/CCTV3.png",CCTV3
-https://stream.iptv-search.com/main.php?id=CCTV3&t=1753977057&token=bd990127bd0c3f7e6607bd7dc10192e7
-#EXTINF:-1  group-title="mylist" tvg-logo="https://i.imgur.com/OK8mdJV.png",CCTV5+
-https://stream.iptv-search.com/main.php?id=CCTV5%2B&t=1753977057&token=6a27d8b6af74b51b357ff003ec6b0b55
-#EXTINF:-1  group-title="mylist" tvg-logo="https://iptv-search.com/static/channellogo/img/CCTV6.png",CCTV6
-https://stream.iptv-search.com/main.php?id=CCTV6&t=1753977057&token=0626a9d32da4b8ab923f4521d7ecd73d
-#EXTINF:-1  group-title="mylist" tvg-logo="https://iptv-search.com/static/channellogo/img/CCTV8.png",CCTV8
-https://stream.iptv-search.com/main.php?id=CCTV8&t=1753977057&token=a0a4f8d03a41e2dba28c4320985492b3
-#EXTINF:-1  group-title="mylist" tvg-logo="https://iptv-search.com/static/channellogo/img/CCTV10.png",CCTV10
-https://stream.iptv-search.com/main.php?id=CCTV10&t=1753977057&token=fdad769120a0431e7546b3897ea72a51
-#EXTINF:-1  group-title="mylist" tvg-logo="https://iptv-search.com/static/channellogo/img/CCTV2.png",CCTV2
-https://stream.iptv-search.com/main.php?id=CCTV2&t=1753977057&token=8cbf58f098fc5d1e1d4255b0afa1cd9e
-#EXTINF:-1  group-title="mylist" tvg-logo="",凤凰中文
-https://stream.iptv-search.com/main.php?id=%E5%87%A4%E5%87%B0%E4%B8%AD%E6%96%87&t=1753977057&token=9a1c848a6bae7f13ce170483a4070ac1
-#EXTINF:-1  group-title="mylist" tvg-logo="",凤凰卫视
-https://stream.iptv-search.com/main.php?id=%E5%87%A4%E5%87%B0%E5%8D%AB%E8%A7%86&t=1753977057&token=83bf650fa1c83fcaf07a0f89598073b8
+#EXT-X-APP APTV
+
+#EXTINF:-1 tvg-name="CCTV5" tvg-logo="https://live.fanmingming.cn/tv/CCTV5.png" group-title="CCTV",CCTV5
+http://218.78.176.241:5003/cctv5.m3u8?token=7375646f467cfbf33787cf046c465006aa15e932&z=1f48
+#EXTINF:-1 tvg-name="CCTV5+" tvg-logo="https://live.fanmingming.cn/tv/CCTV5+.png" group-title="CCTV",CCTV5+
+http://[2409:8087:1:20:20::2c]/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226894/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EevWZ0zmguDsOY_Mf3SM5TA%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND%24%21
+#EXTINF:-1 tvg-name="CCTV2" tvg-logo="https://live.fanmingming.cn/tv/CCTV2.png" group-title="CCTV",CCTV2
+http://111.43.126.240:9003/hls/14/index.m3u8
+#EXTINF:-1 tvg-name="CCTV4" tvg-logo="https://live.fanmingming.cn/tv/CCTV4.png" group-title="CCTV",CCTV4
+http://218.78.176.241:5003/cctv4.m3u8?token=7375646fbc5fa9fb4a864936008cd4907ff363de&z=1f48
+#EXTINF:-1 tvg-name="CCTV13" tvg-logo="https://live.fanmingming.cn/tv/CCTV13.png" group-title="CCTV",CCTV13
+http://223.76.131.67:5003/cctv13.m3u8?token=7375646f91e84938f96b49f77194bcd6b5a49e63&z=1151
+http://sh.lnott.top:880/dx13.m3u8
+#EXTINF:-1 tvg-id="141" tvg-name="凤凰中文" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/fenghuangzhongwen.png" group-title="港澳台",凤凰中文
+http://cdn.132.us.kg/live/fhzw/stream.m3u8
+#EXTINF:-1 tvg-id="142" tvg-name="凤凰资讯" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/fenghuangzixun.png" group-title="港澳台",凤凰资讯
+http://cdn3.132.us.kg/live/fhzx/stream.m3u8
